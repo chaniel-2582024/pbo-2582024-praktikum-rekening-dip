@@ -9,7 +9,7 @@ public class BankSolid {
         BerBunga[] berbunga = { ani, citra, dewi };
         BisaDitarik[] bisaDitarik = { ani, citra, budi };
 
-        Notifikasi notifikasi = new SmsNotifikasi();
+        Notifikasi notifikasi = new EmailNotifikasi();
         // Uji SMS: ganti baris di atas jadi SmsNotifikasi.
         // Yang perlu diubah: 1 baris (di main). ProsesAkhirBulan: 0 baris.
 
