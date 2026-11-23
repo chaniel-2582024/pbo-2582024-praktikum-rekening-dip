@@ -1,4 +1,4 @@
-package PACKAGE_NAME;
-
-public class BisaDitarik {
+public interface BisaDitarik {
+    boolean tarik(int jumlah);
+    String getNomor();
 }
